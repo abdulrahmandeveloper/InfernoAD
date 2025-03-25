@@ -5,7 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Pricing from "./components/Pricing";
-import Team from "./components/team";
+
 import Testimonia from "./components/Testimonia";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
@@ -20,7 +20,7 @@ const App = () => {
       <Services />
       <Projects />
       <Pricing />
-      <Team />
+
       <Testimonia />
       <Faq />
       <Contact />
