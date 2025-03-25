@@ -1,6 +1,6 @@
 import React from "react";
 import { about } from "../constants";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 const About = () => {
   const imagevariants = {
