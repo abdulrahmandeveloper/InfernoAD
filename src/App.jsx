@@ -10,6 +10,7 @@ import Testimonia from "./components/Testimonia";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
       <Services />
       <Projects />
       <Pricing />
-
+      <Team />
       <Testimonia />
       <Faq />
       <Contact />
