@@ -1,6 +1,6 @@
 import service1 from "../assets/service1.jpeg";
 import service2 from "../assets/service2.jpeg";
-import service3 from "../assets/service3.jpeg";
+import service3 from "../assets/testimonial2.jpeg";
 import project1 from "../assets/project1.jpeg";
 import project2 from "../assets/project2.jpeg";
 import project3 from "../assets/project3.jpeg";
@@ -15,7 +15,7 @@ import testimonial2 from "../assets/testimonial2.jpeg";
 import testimonial3 from "../assets/testimonial3.jpeg";
 import testimonial4 from "../assets/testimonial4.jpeg";
 
-export const LINKS = [
+export const links = [
   { name: "About", id: "about" },
   { name: "Services", id: "services" },
   { name: "Projects", id: "projects" },
@@ -26,35 +26,35 @@ export const LINKS = [
   { name: "Contact", id: "contact" },
 ];
 
-export const ABOUT = {
+export const about = {
   profileImages: [
     {
-      src: profile6,
+      src: project1,
       alt: "Creative Team",
       delay: 0.1,
     },
     {
-      src: profile3,
+      src: profile6,
       alt: "Marketing Strategy",
       delay: 0.2,
     },
     {
-      src: profile4,
+      src: testimonial3,
       alt: "Digital Campaign",
       delay: 0.3,
     },
   ],
   aboutUsText:
-    "At adCarrot, we are a dynamic team of creative professionals, marketing experts, and digital strategists committed to elevating your brand. We specialize in crafting innovative ad campaigns that drive engagement and deliver results.",
+    "At InfernoAd, we are a dynamic team of creative professionals, marketing experts, and digital strategists committed to elevating your brand. We specialize in crafting innovative ad campaigns that drive engagement and deliver results.",
 };
 
-export const SERVICES = [
+export const services = [
   {
     id: 1,
     title: "Marketing",
     content: "Tailored strategies to meet your unique business needs.",
     description:
-      "Ultimately, this service empowers us to deliver data-driven marketing strategies that are laser-focused on achieving our clients' specific goals.",
+      "We craft customized marketing solutions that align with your brand identity and business objectives, leveraging consumer insights and market trends to drive measurable growth and engagement.",
     imgSrc: service1,
   },
   {
@@ -62,7 +62,7 @@ export const SERVICES = [
     title: "Campaigns",
     content: "Optimize your campaigns for maximum reach and engagement.",
     description:
-      "Ultimately, this service empowers us to deliver data-driven marketing strategies that are laser-focused on achieving our clients' specific goals.",
+      "Our data-driven campaign management focuses on precision targeting and performance optimization across all channels, ensuring your message resonates with the right audience at the right time.",
     imgSrc: service2,
   },
   {
@@ -70,12 +70,12 @@ export const SERVICES = [
     title: "Consulting",
     content: "Get expert advice and insights to boost your marketing efforts.",
     description:
-      "Ultimately, this service empowers us to deliver data-driven marketing strategies that are laser-focused on achieving our clients' specific goals.",
+      "Through in-depth analysis and industry expertise, we provide actionable recommendations to refine your marketing strategy, improve ROI, and gain a competitive edge in your market.",
     imgSrc: service3,
   },
 ];
 
-export const PROJECTS = [
+export const projects = [
   {
     year: "2023",
     title: "Olliviere",
@@ -117,7 +117,7 @@ export const PROJECTS = [
   },
 ];
 
-export const PACKAGES = [
+export const packages = [
   {
     name: "Premium",
     price: "$25K",
@@ -159,16 +159,16 @@ export const PACKAGES = [
   },
 ];
 
-export const TEAM_MEMBERS = [
+export const team_members = [
   {
     name: "Emily Martinez",
     title: "Creative Director",
-    image: profile1,
+    image: service1,
   },
   {
     name: "Janine Mensah",
     title: "Marketing Strategist",
-    image: profile2,
+    image: testimonial4,
   },
   {
     name: "James Carter",
@@ -192,9 +192,9 @@ export const TEAM_MEMBERS = [
   },
 ];
 
-export const TESTIMONIALS = [
+export const testimonials = [
   {
-    text: "Working with adCarrot has transformed our marketing strategy. Their creative solutions and dedication are unmatched.",
+    text: "Working with InfernoAD has transformed our marketing strategy. Their creative solutions and dedication are unmatched.",
     author: "Sarah Johnson",
     title: "CEO, BrightFuture",
     bgColor: "bg-purple-100",
@@ -202,7 +202,7 @@ export const TESTIMONIALS = [
     image: testimonial1,
   },
   {
-    text: "The team at adCarrot is professional, innovative, and incredibly skilled. They have significantly improved our brand's online presence.",
+    text: "The team at InfernoAD is professional, innovative, and incredibly skilled. They have significantly improved our brand's online presence.",
     author: "David Williams",
     title: "CTO, TechSavvy",
     bgColor: "bg-green-100",
@@ -210,7 +210,7 @@ export const TESTIMONIALS = [
     image: testimonial2,
   },
   {
-    text: "adCarrot's approach to marketing is both strategic and creative. They understand our needs and deliver outstanding results.",
+    text: "InfernoAD's approach to marketing is both strategic and creative. They understand our needs and deliver outstanding results.",
     author: "Emily Davis",
     title: "Marketing Director, FinancePro",
     bgColor: "bg-blue-100",
@@ -218,7 +218,7 @@ export const TESTIMONIALS = [
     image: testimonial3,
   },
   {
-    text: "The quality of work and the level of expertise at adCarrot is exceptional. We highly recommend their services. Overall happy!",
+    text: "The quality of work and the level of expertise at InfernoAD is exceptional. We highly recommend their services. Overall happy!",
     author: "John Smith",
     title: "COO, StartSmart",
     bgColor: "bg-yellow-100",
@@ -227,39 +227,39 @@ export const TESTIMONIALS = [
   },
 ];
 
-export const FAQS = [
+export const faqs = [
   {
-    question: "What services does adCarrot offer?",
+    question: "What services does InfernoAD offer?",
     answer:
-      "adCarrot offers a wide range of services including personalized marketing plans, flexible campaign scheduling, online consulting sessions, and more. Our services are designed to elevate your brand and drive engagement.",
+      "InfernoAD offers a wide range of services including personalized marketing plans, flexible campaign scheduling, online consulting sessions, and more. Our services are designed to elevate your brand and drive engagement.",
   },
   {
-    question: "How can adCarrot help my business grow?",
+    question: "How can InfernoAD help my business grow?",
     answer:
-      "adCarrot specializes in creating data-driven marketing strategies that are tailored to your unique business needs. Our team of experts works closely with you to optimize your campaigns and achieve your business goals.",
+      "InfernoAD specializes in creating data-driven marketing strategies that are tailored to your unique business needs. Our team of experts works closely with you to optimize your campaigns and achieve your business goals.",
   },
   {
-    question: "Can adCarrot handle social media management?",
+    question: "Can InfernoAD handle social media management?",
     answer:
-      "Yes, adCarrot offers comprehensive social media management services. We create engaging content, manage your social media accounts, and run targeted ad campaigns to increase your online presence.",
+      "Yes,InfernoAD offers comprehensive social media management services. We create engaging content, manage your social media accounts, and run targeted ad campaigns to increase your online presence.",
   },
   {
-    question: "How does adCarrot measure campaign success?",
+    question: "How does InfernoAD measure campaign success?",
     answer:
       "We use advanced analytics and tracking tools to measure the success of your campaigns. Our team provides detailed reports and insights to help you understand the performance and ROI of your marketing efforts.",
   },
   {
-    question: "What is the process for getting started with adCarrot?",
+    question: "What is the process for getting started with aInfernoAD",
     answer:
-      "Getting started with adCarrot is easy. Simply contact us to schedule a consultation. We'll discuss your business needs, develop a customized marketing plan, and get your campaigns up and running in no time.",
+      "Getting started with InfernoAD is easy. Simply contact us to schedule a consultation. We'll discuss your business needs, develop a customized marketing plan, and get your campaigns up and running in no time.",
   },
   {
     question:
       "Is there customer support available for troubleshooting or customization assistance?",
     answer:
-      "Yes, adCarrot offers dedicated customer support to assist you with any questions or issues. Our support team is available to help you with troubleshooting and provide guidance on customizing your marketing strategies.",
+      "Yes, InfernoAD offers dedicated customer support to assist you with any questions or issues. Our support team is available to help you with troubleshooting and provide guidance on customizing your marketing strategies.",
   },
 ];
 
-export const FAQ_DESCRIPTION =
+export const faq_description =
   "Explore quick answers to common queries in our FAQ section. Whether it's about our services, policies, or more, find the information you need. Need further assistance? Contact our customer support for personalized help!";
